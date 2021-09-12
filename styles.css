@@ -1,7 +1,34 @@
 .container {
-    width : 50%;
-    background-color: aqua;
-    padding: 10px;
+    /* width : 50%; */
+    background-color: aquamarine;
+    /* padding: 10px;
+    margin: auto;*/
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    width: 50vh;
     margin: auto;
-    height : 50vw;
 }
+
+input {
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    font-size: medium;
+    margin: 10px;
+}
+
+/* 
+table {
+    margin: auto;
+    padding-top: 10px;
+}
+*/
+
+
+td {
+    font-size: large;
+    padding: 2px;
+} 
