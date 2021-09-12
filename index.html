@@ -4,11 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="sty">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Cash_Register</title>
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Cash_Register</h1>
+        <p>
+            The bill amount is given and the cash is given.
+            Calculate the number of notes of each denomination required.
+        </p>
+        <label for="BillAmount">Bill_Amount</label>
+        <input type="text" id="BillAmount">
+        <p></p>
+        <label for="CashAmount">Cash_Amount</label>
+        <input type="text" id="CashAmount">
+        <table>
+            <tr>
+                <th>Notes</th>
+                <td class="notes-calculate"></td>
+                <td class="notes-calculate"></td>
+                <td class="notes-calculate"></td>
+                <td class="notes-calculate"></td>
+                <td class="notes-calculate"></td>
+                <td class="notes-calculate"></td>
+            </tr>
+            <tr>
+                <th>Denominations</th>
+                <td class="deno-notes">2000</td>
+                <td class="deno-notes">500</td>
+                <td class="deno-notes">100</td>
+                <td class="deno-notes">20</td>
+                <td class="deno-notes">10</td>
+                <td class="deno-notes">1</td>
+            </tr>
+        </table>
+    </div>
 </body>
 <script src="app.js"></script>
 </html>
