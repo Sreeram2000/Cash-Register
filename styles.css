@@ -27,6 +27,12 @@ table {
 }
 */
 
+/* 
+table {
+    margin: auto;
+    padding-top: 10px;
+}
+*/
 
 td {
     font-size: large;
